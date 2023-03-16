@@ -1,0 +1,40 @@
+name: calc
+channels:
+    - conda-forge
+dependencies:
+    - bokeh<2.0.0
+    - bottleneck
+    - cartopy
+    - cftime
+    - dask
+    - distributed
+    - eofs
+    - esmtools
+    - ipykernel
+    - jupyter
+    - jupyterlab
+    - jupyter-server-proxy
+    - mamba
+    - matplotlib
+    - metpy
+    - nc-time-axis
+    - netcdf4
+    - numpy
+    - pandas
+    - pip>20.1
+    - proplot
+    - scipy
+    - seaborn
+    - seawater
+    - gsw
+    - tqdm
+    - watermark
+    - xarray
+    - xmitgcm
+    - xesmf # xarray interface it ESMF tools
+    - xgcm # General Circulation Model Postprocessing with xarray
+    - xhistogram # Fast, flexible, label-aware histograms for numpy and xarray
+    - zarr
+    - pip:
+            - PyCO2SYS
+            - nb_black
