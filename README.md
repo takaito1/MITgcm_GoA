@@ -44,3 +44,7 @@ MITgcm regional Gulf of Alaska configuration
 > 
 > python -m ipykernel install --user --name calc
 - Now your python environment is ready!
+
+## Model data display example
+- Physical spinup from 1980-2009 is available at /glade/campaign/univ/ugit0036/runs
+- Tutorial 1: display_data.ipynb
