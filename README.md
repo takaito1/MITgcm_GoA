@@ -32,7 +32,7 @@ MITgcm regional Gulf of Alaska configuration
 - You should see (base) before the prompt now. Now you are in the "base" environment. First update the base environment and follow the prompts to completion. 
 > conda update -n base -c conda-forge conda
 - Next create a new environment (project: you can name it whatever you like)
-> conda create --name project python=3.9
+> conda create --name project python=3.10
 - Make the new "project" environment accessible from jupyter notebook
 > conda install -c conda-forge ipython ipykernel
 > 
