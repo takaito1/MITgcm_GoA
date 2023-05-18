@@ -18,8 +18,7 @@ MITgcm regional Gulf of Alaska configuration
 > ln -s /glade/scratch/$USER scratch
 > 
 > ln -s /glade/campaign/univ/ugit0036 project36
-- Next, download "miniconda Linux 64bit" from https://docs.conda.io/en/latest/miniconda.html 
-- This can be done using wget command, or first download it to your computer and use the upload icon on the jupyterhub to upload the Miniconda3-pyXXXX-Linux-x86_64.sh file to your home directory
+- Next, download "miniconda Linux 64bit" from https://docs.conda.io/en/latest/miniconda.html
 > wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.10.3-Linux-x86_64.sh
 - Execute the shell script by typing as follows and set up base of miniconda3
 > bash Miniconda3-py39_4.10.3-Linux-x86_64.sh
