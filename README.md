@@ -14,7 +14,9 @@ MITgcm regional Gulf of Alaska configuration
 - From the select "+" to start a new launcher, and from "other" start a "terminal" to open a command line terminal. 
 - First, generate symbolic link to your "work" and "scratch" disk space
 > ln -s /glade/work/$USER work
+> 
 > ln -s /glade/scratch/$USER scratch
+> 
 > ln -s /glade/campaign/univ/ugit0036 project
 - Next, download "miniconda Linux 64bit" from https://docs.conda.io/en/latest/miniconda.html 
 - This can be done using wget command, or first download it to your computer and use the upload icon on the jupyterhub to upload the Miniconda3-pyXXXX-Linux-x86_64.sh file to your home directory
