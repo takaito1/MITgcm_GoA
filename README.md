@@ -28,21 +28,20 @@ MITgcm regional Gulf of Alaska configuration
 > 
 > conda activate
 - You should see (base) before the prompt now. Now you are in the "base" environment. First update the base environment and follow the prompts to completion. 
-> conda update --all
-- Next install mamba. This is a parallel version of conda. 
-> conda install mamba -c conda-forge
-- you will copy the env-calc.yml file from this repository. Try: 
-> cd work
->
+> conda update -n base -c conda-forge conda
+- Next create a new environment (project: you can name it whatever you like)
+> conda create --name project python=3.9
+- Make the new "project" environment accessible from jupyter notebook
+> conda install -c conda-forge ipython ipykernel
+> ipython kernel install --name project
+- Install additional packages
+> mkdir -p work/project
+> cd work/project
 > git clone https://github.com/takaito1/MITgcm_GoA.git
-> 
-> cd MITgcm_GoA
-- Create a new "calc" environment. (This might take a while, please be patient)
-> mamba env create -f env-calc.yml
-- Make the new "calc" environment accessible from jupyter notebook
-> conda activate calc
-> 
-> python -m ipykernel install --user --name calc
+> pip install numpy scipy netCDF4 matplotlib opencv-python pyyaml pint polygon3 pandas xarray
+> git clone https://github.com/AntSimi/py-eddy-tracker
+> cd py-eddy-tracker
+> python setup.py install
 - Now your python environment is ready!
 
 ## Model data display example
