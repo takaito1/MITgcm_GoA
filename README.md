@@ -33,15 +33,23 @@ MITgcm regional Gulf of Alaska configuration
 > conda create --name project python=3.9
 - Make the new "project" environment accessible from jupyter notebook
 > conda install -c conda-forge ipython ipykernel
+> 
 > ipython kernel install --name project
 - Install additional packages
 > mkdir -p work/project
+> 
 > cd work/project
+> 
 > git clone https://github.com/takaito1/MITgcm_GoA.git
+> 
 > pip install numpy scipy netCDF4 matplotlib opencv-python pyyaml pint polygon3 pandas xarray
+> 
 > git clone https://github.com/AntSimi/py-eddy-tracker
+> 
 > cd py-eddy-tracker
+> 
 > python setup.py install
+> 
 - Now your python environment is ready!
 
 ## Model data display example
