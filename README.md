@@ -54,6 +54,11 @@ MITgcm regional Gulf of Alaska configuration
 > 
 - Now your python environment is ready!
 
+## Eddy tracking example
+- Observed SSH and NPP are available at /glade/campaign/univ/ugit0036/obs
+- Tutorial 1: eddy_detection.ipynb
+- Tutorial 2: collocation.ipynb
+
 ## Model data display example
 - Physical spinup from 1980-2009 is available at /glade/campaign/univ/ugit0036/runs
 - Tutorial 1: display_data.ipynb
