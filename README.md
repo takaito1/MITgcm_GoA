@@ -36,7 +36,7 @@ MITgcm regional Gulf of Alaska configuration
 - Make the new "project" environment accessible from jupyter notebook
 > conda install -c conda-forge ipython ipykernel
 > 
-> ipython kernel install --name project
+> ipython kernel install --user --name=project
 - Install additional packages
 > mkdir -p work/project
 > 
