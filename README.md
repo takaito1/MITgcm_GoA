@@ -55,7 +55,9 @@ MITgcm regional Gulf of Alaska configuration
 - Now your python environment is ready!
 
 ## Eddy tracking example
-- Observed SSH and NPP are available at /glade/campaign/univ/ugit0036/obs
+- Jupyterhub is the starting point. Open your browser and access the following URL: https://jupyterhub.hpc.ucar.edu
+- Use the side bar to navigate yourself into work/MITgcm_GoA folder
+- Double click the tutorial files to access the examples 
 - Tutorial 1: eddy_detection.ipynb
 - Tutorial 2: collocation.ipynb
 
