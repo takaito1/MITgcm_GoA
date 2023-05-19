@@ -44,7 +44,7 @@ MITgcm regional Gulf of Alaska configuration
 > 
 > git clone https://github.com/takaito1/MITgcm_GoA.git
 > 
-> pip install numpy scipy netCDF4 matplotlib opencv-python pyyaml pint polygon3 pandas xarray xmitgcm
+> pip install numpy scipy netCDF4 matplotlib opencv-python pyyaml pint polygon3 pandas xarray
 > 
 > git clone https://github.com/AntSimi/py-eddy-tracker
 > 
