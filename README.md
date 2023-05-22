@@ -34,6 +34,8 @@ MITgcm regional Gulf of Alaska configuration
 - Next create a new environment (project: you can name it whatever you like)
 > conda create --name project python=3.10
 - Make the new "project" environment accessible from jupyter notebook
+> conda activate project
+> 
 > conda install -c conda-forge ipython ipykernel
 > 
 > ipython kernel install --user --name=project
