@@ -3,7 +3,7 @@ MITgcm regional Gulf of Alaska configuration
 
 ## Getting started
 
-### login and access (do this every time you access cori)
+### login and access (do this every time you access NCAR HPC)
 - Once you have established an account with CISL, you have access to jupyterhub on NCAR supercomputers. 
 - Open your web browser on your laptop. Access the jupyterhub on cori via copying this URL https://jupyterhub.hpc.ucar.edu  
 ### setting up python environment (do this only once)
