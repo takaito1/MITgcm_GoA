@@ -68,5 +68,5 @@ MITgcm regional Gulf of Alaska configuration
 - Tutorial 1: display_data.ipynb
 
 ## Station P (P26) data download
-- CSV file containing the list of Line P profiles, its time, and link to netCDF [here]
-- Two MATLAB scripts: 
+- CSV file containing the list of Line P profiles, its time, and link to netCDF [here](https://github.com/takaito1/MITgcm_GoA/blob/main/csv_file_download_list.csv)
+- Two MATLAB scripts: [read_LineP_csv.m](https://github.com/takaito1/MITgcm_GoA/blob/main/read_LineP_csv.m) and [get_lineP_ctd.m](https://github.com/takaito1/MITgcm_GoA/blob/main/get_lineP_csv.m)
