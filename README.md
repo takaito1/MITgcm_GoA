@@ -66,6 +66,7 @@ MITgcm regional Gulf of Alaska configuration
 ## Model data display example
 - Physical hindcast simulation is available at /glade/campaign/univ/ugit0036/hindcast_v2
 - Tutorial 1: display_hindcast_v2.ipynb
+- The current "version 2" run is based on JRA55do atmospheric forcing (no restoring) and SODA 3.4.2 oceanic boundary condition. 
 
 ## Station P (P26) data download
 - CSV file containing the list of Line P profiles, its time, and link to netCDF [here](https://github.com/takaito1/MITgcm_GoA/blob/main/csv_file_download_list.csv)
