@@ -66,3 +66,7 @@ MITgcm regional Gulf of Alaska configuration
 ## Model data display example
 - Physical spinup from 1980-2009 is available at /glade/campaign/univ/ugit0036/runs
 - Tutorial 1: display_data.ipynb
+
+## Station P (P26) data download
+- CSV file containing the list of Line P profiles, its time, and link to netCDF [here]
+- Two MATLAB scripts: 
