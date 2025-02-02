@@ -46,8 +46,10 @@ MITgcm regional Gulf of Alaska configuration
 > 
 > git clone https://github.com/takaito1/MITgcm_GoA.git
 > 
-> pip install numpy scipy netCDF4 matplotlib opencv-python pyyaml pint polygon3 pandas xarray
+> conda install -c conda-forge "numpy<2.2" "matplotlib<3.8" "pint" "polygon3" "pyyaml" "requests" "scipy" "zarr<3.0" "netCDF4" "numba"
 > 
+> pip install opencv-python
+>
 > git clone https://github.com/AntSimi/py-eddy-tracker
 > 
 > cd py-eddy-tracker
